@@ -9,10 +9,10 @@ function App() {
       <Link to="/greeting">View Greetings</Link>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/greeting" element={<Greeting/>} />
-      </Routes>  
+        <Route path="/greeting" element={<Greeting />} />
+      </Routes>
     </div>
-  )
+  );
 }
 
 export default App;
